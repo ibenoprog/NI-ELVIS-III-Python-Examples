@@ -25,8 +25,8 @@ In this document we will walk you through the setup, transfer of files, and the 
 ## Configuring the NI ELVIS III Device
 In this section we will install the NI Measurement Live Support Files and set up the software environment for the NI ELVIS III.
 
-1. Install the [NI Measurement Live Support Files](http://www.ni.com/download/labview-elvis-iii-toolkit-2018/7639/en/).
-2. Connect the NI ELVIS III to the Internet by using the Ethernet Port, Wifi, or USB connection so that the Python libraries can be installed from the Internet. We recommend that you use either Ethernet Port or Wifi.
+1. Install the [NI Measurement Live Support Files](http://www.ni.com/download/labview-elvis-iii-toolkit-2018-sp1/7682/en/).
+2. [Connect the NI ELVIS III to the Internet](http://www.ni.com/documentation/en/ni-elvis-iii/latest/getting-started/connecting-device-to-host-computer/#GUID-83C3F97C-4F5F-451E-B370-32F14F21EC4D) by using the Ethernet Port, Wifi, or USB connection so that the Python libraries can be installed from the Internet. We recommend that you use either Ethernet Port or Wifi.
 3. Enable the **Secure Shell Server**.
    1. Open Internet Explorer and visit the NI ELVIS III Configuration website: \<IP Address of the NI ELVIS III\>/WIF.html<br/>
       ![](docs/resource/url.png)<br/>
@@ -79,11 +79,11 @@ In this section we will download the NI ELVIS III Python examples.
    - Download NI ELVIS III Python.
    
      ```
-     git clone --recursive git@github.com:ni/NI-ELVIS-III-Python.git
+     git clone --recursive git@github.com:ni/NI-ELVIS-III-Python-Examples.git
      ```
    - You can now find **NI-ELVIS-III-Python** in your current directory. The default directory is `/home/admin`.
    - You will see information similar to the following one when the download finishes successfully. 
-     > admin@NI-ELVIS-III-0000000: ~# git clone --recursive git@github.com:ni/NI-ELVIS-III-Python<br/>
+     > admin@NI-ELVIS-III-0000000: ~# git clone --recursive git@github.com:ni/NI-ELVIS-III-Python-Examples<br/>
      > Cloning into 'NI-ELVIS-III-Python'...<br/>
      > remote: Counting objects: 407, done.<br/>
      > remote: Total 407 (delta 0), reused 0 (delta 0), pack-reused 407<br/>
